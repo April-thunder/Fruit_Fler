@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,500&family=Montserrat:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Fruit Fler</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="header__left-mobile">
+                    <a class="menu__btn" data-path="form-popup">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                    <img class="logo-mobile" src="img/logo-mobile.png" alt="logo">
+                </div>
+                <img class="logo" src="img/logo.png" alt="logo">
+                <ul class="menu-list">
+                    <li class="menu-list__item"><a class="menu-list__link" href="#">Каталог</a></li>
+                    <li class="menu-list__item"><a class="menu-list__link" href="#">Доставка и оплата</a></li>
+                    <li class="menu-list__item"><a class="menu-list__link" href="#">О нас</a></li>
+                </ul>
+
+                <a class="phone" href="tel:+79145441491">+7 914 544-14-91</a>
+                <div class="header-icons">
+                    <a class="link-icon" href="#"><img class="header-icon" src="img/search.svg" alt="search"></a>
+                    <a class="link-icon" href="#"><img class="header-icon" src="img/favorite.svg" alt="favorite"></a>
+                    <a class="link-icon" href="#"><img class="header-icon" src="img/cart.svg" alt="cart"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="main-section">
+            <div class="container">
+                <h1 class="main-section__title">Студия съедобной флористики</h1>
+                <p class="main-section__text">в Хабаровске</p>
+                <button class="btn">Заказать букет</button>
+                <div class="slider-block">
+                    <div class="slider-wrapper">
+                        <img class="slider-block__static-img" src="img/slider_static_pict.png" alt="candies">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img class="slider-img" src="img/slider_pict1.png"
+                                        alt="picture"></div>
+                                <div class="swiper-slide"><img class="slider-img" src="img/slider_pict2.png"
+                                        alt="picture"></div>
+                                <div class="swiper-slide"><img class="slider-img" src="img/slider_pict3.png"
+                                        alt="picture"></div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="cathegories-block">
+                        <ul class="cathegories-list">
+                            <li class="cathegories-list__item">
+                                <a href="#" class="cathegories-link">
+                                    <div class="cathegories-link_icon sale-icon"></div>
+                                    <p class="cathegories-title">Акции</p>
+                                </a>
+                            </li>
+                            <li class="cathegories-list__item">
+                                <a href="#" class="cathegories-link">
+                                    <div class="cathegories-link_icon season-icon"></div>
+                                    <p class="cathegories-title">Сезонные букеты</p>
+                                </a>
+                            </li>
+                            <li class="cathegories-list__item">
+                                <a href="#" class="cathegories-link">
+                                    <div class="cathegories-link_icon for_men-icon"></div>
+                                    <p class="cathegories-title">Для мужчин</p>
+                                </a>
+                            </li>
+                            <li class="cathegories-list__item">
+                                <a href="#" class="cathegories-link">
+                                    <div class="cathegories-link_icon for_women-icon"></div>
+                                    <p class="cathegories-title">Для женщин</p>
+                                </a>
+                            </li>
+                            <li class="cathegories-list__item">
+                                <a href="#" class="cathegories-link">
+                                    <div class="cathegories-link_icon for_kids-icon"></div>
+                                    <p class="cathegories-title">Для детей</p>
+                                </a>
+                            </li>
+                            <li class="cathegories-list__item">
+                                <a href="#" class="cathegories-link">
+                                    <div class="cathegories-link_icon gifts-icon"></div>
+                                    <p class="cathegories-title">Подарки</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="cathegories-block--mobile">
+                    <ul class="cathegories-list">
+                        <li class="cathegories-list__item">
+                            <a href="#" class="cathegories-link">
+                                <div class="cathegories-link_icon sale-icon"></div>
+                                <p class="cathegories-title">Акции</p>
+                            </a>
+                        </li>
+                        <li class="cathegories-list__item">
+                            <a href="#" class="cathegories-link">
+                                <div class="cathegories-link_icon season-icon"></div>
+                                <p class="cathegories-title">Сезонные букеты</p>
+                            </a>
+                        </li>
+                        <li class="cathegories-list__item">
+                            <a href="#" class="cathegories-link">
+                                <div class="cathegories-link_icon for_men-icon"></div>
+                                <p class="cathegories-title">Для мужчин</p>
+                            </a>
+                        </li>
+                        <li class="cathegories-list__item">
+                            <a href="#" class="cathegories-link">
+                                <div class="cathegories-link_icon for_women-icon"></div>
+                                <p class="cathegories-title">Для женщин</p>
+                            </a>
+                        </li>
+                        <li class="cathegories-list__item">
+                            <a href="#" class="cathegories-link">
+                                <div class="cathegories-link_icon for_kids-icon"></div>
+                                <p class="cathegories-title">Для детей</p>
+                            </a>
+                        </li>
+                        <li class="cathegories-list__item">
+                            <a href="#" class="cathegories-link">
+                                <div class="cathegories-link_icon gifts-icon"></div>
+                                <p class="cathegories-title">Подарки</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="leaders-section">
+            <div class="container">
+                <div class="leaders-wrapper">
+                    <div class="leaders__text-block">
+                        <h2 class="leaders-title">Лидеры продаж</h2>
+                        <a class="leaders-title__link" href="#">Показать все</a>
+                    </div>
+                    <div class="leader__items-block">
+                        <a class="leaders-item" href="#">
+                            <div class="leaders__img-block">
+                                <img class="leaders-img" src="img/leaders01.png" alt="picture">
+                                <p class="leaders__best">хит</p>
+                                <p class="leaders__discount">-22%</p>
+                            </div>
+                            <h3 class="leaders-item__title">Букет «С юбилеем»</h3>
+                            <p class="leaders-item__price">4 500 p</p>
+                        </a>
+                        <a class="leaders-item" href="#">
+                            <div class="leaders__img-block">
+                                <img class="leaders-img" src="img/leaders02.png" alt="picture">
+                            </div>
+                            <h3 class="leaders-item__title">Букет «С юбилеем»</h3>
+                            <p class="leaders-item__price">4 500 p</p>
+                        </a>
+                        <a class="leaders-item" href="#">
+                            <div class="leaders__img-block">
+                                <img class="leaders-img" src="img/leaders03.png" alt="picture">
+                            </div>
+                            <h3 class="leaders-item__title">Букет «С юбилеем»</h3>
+                            <p class="leaders-item__price">4 500 p</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reason-section">
+            <div class="container">
+                <div class="reason-wrapper">
+                    <div class="reason__left-block">
+                        <div class="reason__left-up">
+                            <div class="reason__text-block">
+                                <h2 class="reason-title">Выберете повод</h2>
+                                <a class="reason-title__link" href="#">Показать все</a>
+                            </div>
+                            <a class="reason__img-block reason__img-block--left-up" href="#">
+                                <img class="reason-img" src="img/reason14feb.png" alt="picture">
+                                <p class="reason-block__text">14 февраля</p>
+                            </a>
+                        </div>
+                        <div class="reason__left-down">
+                            <a class="reason__img-block" href="#">
+                                <img class="reason-img" src="img/reason23feb.png" alt="picture">
+                                <p class="reason-block__text">23 февраля</p>
+                            </a>
+                            <a class="reason__img-block reason__img-block--down-right" href="#">
+                                <img class="reason-img" src="img/reason-without.png" alt="picture">
+                                <p class="reason-block__text">Подарок без повода</p>
+                            </a>
+                        </div>
+                    </div>
+                    <a class="reason__img-block" href="#">
+                        <img class="reason-img reason-img--bd" src="img/reason-birthday.png" alt="picture">
+                        <p class="reason-block__text">День рождения</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="order-section">
+            <div class="container">
+                <div class="order-wrapper">
+                    <div class="order__text-block">
+                        <h2 class="order-title">Как сделать заказ</h2>
+                        <span class="order-celebrate">Предпраздничные заказы</span>
+                        <p class="order-text">На праздники 8 марта, 23 февраля, Новый год и другие количество заказов
+                            ограничено, оформляйте заказ за 7–10 дней</p>
+                    </div>
+                    <div class="order__path-block">
+                        <img class="way" src="img/way.svg" alt="way">
+                        <div class="order__berries-block">
+                            <div class="order-item">
+                                <img class="order-img" src="img/berrie-cart.svg" alt="berrie">
+                                <div class="order-item__text-block">
+                                    <h3 class="order-item__title">Выберите букет или композицию</h3>
+                                    <p class="order-item__text">Затем нажмите «Заказать», или отложите в «корзину»</p>
+                                </div>
+                            </div>
+                            <div class="order-item order-item--plus">
+                                <img class="order-img" src="img/berrie-plus.svg" alt="berrie">
+                                <div class="order-item__text-block">
+                                    <h3 class="order-item__title">Дополните букет</h3>
+                                    <p class="order-item__text">Добавьте к букету открытку, топер или воздушные шары</p>
+                                </div>
+                            </div>
+                            <div class="order-item order-item--human">
+                                <img class="order-img" src="img/berrie-human.svg" alt="berrie">
+                                <div class="order-item__text-block">
+                                    <h3 class="order-item__title">Оставьте заявку</h3>
+                                    <p class="order-item__text">Заполните форму — укажите контактную информацию,
+                                        желаемое время и дату доставки</p>
+                                </div>
+                            </div>
+                            <div class="order-item order-item--phone">
+                                <img class="order-img" src="img/berrie-phone.svg" alt="berrie">
+                                <div class="order-item__text-block">
+                                    <h3 class="order-item__title">Подтвердите заказ</h3>
+                                    <p class="order-item__text">В течение часа менеджер свяжется с вами, чтобы уточнить
+                                        детали</p>
+                                </div>
+                            </div>
+                            <div class="order-item order-item--complete">
+                                <img class="order-img" src="img/berrie-complete.svg" alt="berrie">
+                                <div class="order-item__text-block">
+                                    <h3 class="order-item__title">Оплатите заказ</h3>
+                                    <p class="order-item__text">По телефону согласуем детали оплаты и пришлём реквизиты
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="order-item order-item--star">
+                                <img class="order-img order-img--star" src="img/berrie-star.svg" alt="berrie">
+                                <div class="order-item__text-block">
+                                    <p class="order-item__text order-item__text--star">Давайте выбирать букет
+                                        или композицию</p>
+                                    <a class="btn btn--order" href="#">Перейти в каталог</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="feedback-section">
+            <div class="container">
+                <div class="feedback__title-wrapper">
+                    <h2 class="feedback-title">Отзывы: «2 ГИС Хабаровск»</h2>
+                    <a class="feedback-title__link" href="#">Показать все</a>
+                </div>
+                <div class="feedback-block">
+                    <div class="feedback-item">
+                        <span class="feedback-name">Аня Величко</span>
+                        <h4 class="feedback-phrase">Качество отличное</h4>
+                        <p class="feedback-text">Красивые фруктовые букеты из свежих фруктов. Качество отличное.
+                            Оригинальная отделка вкусным шоколадом. Наборы с клубникой в шоколаде — огонь🔥 девушки
+                            очень вежливы и всегда учитывают пожелания при заказе👍</p>
+                    </div>
+                    <div class="feedback-item">
+                        <span class="feedback-name">Александр Н</span>
+                        <h4 class="feedback-phrase">Огромное спасибо!</h4>
+                        <p class="feedback-text">Заказывал букет на день рождения жены. Очень необычно, красиво и
+                            вкусно. Сделали быстро, доставили в нужное время, супруга в восторге. Огромное спасибо!</p>
+                    </div>
+                    <div class="feedback-item">
+                        <span class="feedback-name">Максим Михайлов</span>
+                        <h4 class="feedback-phrase">Всегда пойдут вам навстречу</h4>
+                        <p class="feedback-text">Когда красиво, да ещё и вкусно! Если душа требует хлеба и зрелищ, можно
+                            смело обращаться сюда. Есть из чего выбрать — много готовых вариантов. Впрочем, если у вас
+                            есть свое видение оформления подарка, здесь всегда пойдут вам навстречу.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="advantage-section">
+            <div class="container">
+                <div class="advantage-wrapper">
+                    <h2 class="advantage-title">О наших преимуществах</h2>
+                    <div class="advantage-item">
+                        <img class="advantage-img" src="img/adv-hand.svg" alt="picture">
+                        <h3 class="advantage-item__title">Букеты и композиции, собранные вручную</h3>
+                        <p class="advantage-item__text">Каждый букет создаём вручную, поэтому ни один не похож на другие
+                        </p>
+                    </div>
+                    <div class="advantage-item">
+                        <img class="advantage-img" src="img/adv-warn.svg" alt="picture">
+                        <h3 class="advantage-item__title">Внимание к пожеланиям каждого клиента</h3>
+                        <p class="advantage-item__text">Всегда учитываем ваши идеи — нам важно удивить получателя</p>
+                    </div>
+                    <div class="advantage-item">
+                        <img class="advantage-img" src="img/adv-2012.svg" alt="picture">
+                        <h3 class="advantage-item__title">Работаем на рынке с 2012 года</h3>
+                        <p class="advantage-item__text">С первого взгляда отличаем один сорт клубники от другого. Знаем,
+                            какой лучше сочетается с другими фруктами</p>
+                    </div>
+                    <div class="advantage-item">
+                        <img class="advantage-img" src="img/adv-fresh.svg" alt="picture">
+                        <h3 class="advantage-item__title">Свежие и качественные продукты</h3>
+                        <p class="advantage-item__text">Самостоятельно выбираем игредиенты, учитывая сорт и вкусовые
+                            характеристики</p>
+                    </div>
+                    <div class="advantage-item">
+                        <img class="advantage-img" src="img/adv-urgent.svg" alt="picture">
+                        <h3 class="advantage-item__title">Помощь, если вам срочно нужен букет</h3>
+                        <p class="advantage-item__text">Букет нужен сегодня?<br>Позвоните +7 914 544-14-91</p>
+                    </div>
+                    <div class="advantage-item">
+                        <img class="advantage-img" src="img/adv-prof.svg" alt="picture">
+                        <h3 class="advantage-item__title">Команда профессионалов</h3>
+                        <p class="advantage-item__text">Каждый сотрудник ответственно соблюдает правила гигиены при
+                            работе с продуктами</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="question-section">
+            <div class="container">
+                <div class="question-wrapper">
+                    <img class="question-img" src="img/question-pict.png" alt="picture">
+                    <div class="question__right">
+                        <h2 class="question-title">С радостью ответим на вопросы</h2>
+                        <a class="btn btn--whatsup" href="#">Написать в What’s App</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="contact__text-block">
+                        <span class="work-hours">МЫ РАБОТАЕМ ПН-ВС 10:00 ДО 18:00</span>
+                        <p class="contact-addres">ШЕРОНОВА 8, корп 2</p>
+                        <p class="building">БЦ «Фонд жилищного строительства», 2 этаж</p>
+                        <a class="contact-phone" href="tel:+79145441491">+7 914 544-14-91</a>
+                        <p class="contact-descr">По предварительной договорённости выдача заказов и доставка
+                            осуществляется и после 18:00</p>
+                    </div>
+                    <div class="map" id="map"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-block footer-block--logo">
+                    <img class="footer-img" src="img/logo-footer.png" alt="logo">
+                    <div class="footer__social-block">
+                        <a class="social-link" href="#">
+                            <img class="vk-img" src="img/vk-icon.png" alt="vk">
+                        </a>
+                        <a class="social-link" href="#">
+                            <img class="vk-img" src="img/tg-icon.png" alt="telegram">
+                        </a>
+                    </div>
+                    <p class="footer-text">© ИП Кольцова А.А., 2012</p>
+                    <a class="policy" href="#">Политика конфиденциальности</a>
+                </div>
+                <div class="footer-block">
+                    <h3 class="footer-title">Контакты</h3>
+                    <a class="phone phone--footer" href="tel:+79145441491">+7 914 544-14-91</a>
+                    <a class="footer-text footer-text--mail" href="mailto:info@frutbuket.ru">info@frutbuket.ru</a>
+                    <p class="footer-text">пн-сб 10:00 до 19:00</p>
+                    <p class="footer-text footer-text--address">Волочевская 8,<br> БЦ «Фонд жилищного строительства», 2
+                        этаж</p>
+                </div>
+                <div class="footer-block">
+                    <h3 class="footer-title">Каталог</h3>
+                    <ul class="footer-block__list">
+                        <li class="footer-block__item">
+                            <a class="footer-block__link" href="#">Лидеры продаж</a>
+                        </li>
+                        <li class="footer-block__item">
+                            <a class="footer-block__link" href="#">Буклет</a>
+                        </li>
+                        <li class="footer-block__item">
+                            <a class="footer-block__link" href="#">Коробочки</a>
+                        </li>
+                        <li class="footer-block__item">
+                            <a class="footer-block__link" href="#">Только клубника</a>
+                        </li>
+                        <li class="footer-block__item">
+                            <a class="footer-block__link" href="#">Фрукты с цветами</a>
+                        </li>
+                        <li class="footer-block__item">
+                            <a class="footer-block__link" href="#">Нефруктовые букеты</a>
+                        </li>
+                        <li class="footer-block__item">
+                            <a class="footer-block__link" href="#">Подарки</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-block">
+                    <h3 class="footer-title">Повод</h3>
+                    <ul class="footer-block__list">
+                        <li class="footer-block__item">
+                            <a class="footer-block__link" href="#">День рождения</a>
+                        </li>
+                        <li class="footer-block__item">
+                            <a class="footer-block__link" href="#">Подарок без повода</a>
+                        </li>
+                        <li class="footer-block__item">
+                            <a class="footer-block__link" href="#">14 февраля</a>
+                        </li>
+                        <li class="footer-block__item">
+                            <a class="footer-block__link" href="#">8 Марта</a>
+                        </li>
+                        <li class="footer-block__item">
+                            <a class="footer-block__link" href="#">День учителя</a>
+                        </li>
+                        <li class="footer-block__item">
+                            <a class="footer-block__link" href="#">23 февраля</a>
+                        </li>
+                        <li class="footer-block__item">
+                            <a class="footer-block__link" href="#">Пасха</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-block">
+                    <h3 class="footer-title">О нас</h3>
+                    <ul class="footer-block__list">
+                        <li class="footer-block__item">
+                            <a class="footer-block__link" href="#">Доставка и оплата</a>
+                        </li>
+                        <li class="footer-block__item">
+                            <a class="footer-block__link" href="#">Как заказать</a>
+                        </li>
+                        <li class="footer-block__item">
+                            <a class="footer-block__link" href="#">О Fruit Fleur</a>
+                        </li>
+                        <li class="footer-block__item">
+                            <a class="footer-block__link" href="#">Производство</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="modals">
+        <div class="modal-overlay">
+            <div class="modal" data-target="form-popup">
+                <button class="close__icon">X</button>
+                <ul class="modal__list">
+                    <li class="modal__item"><a class="modal__link" href="#">Каталог</a></li>
+                    <li class="modal__item"><a class="modal__link" href="#">Доставка и оплата</a></li>
+                    <li class="modal__item"><a class="modal__link" href="#">О нас</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=93906de1-e197-4d78-9d3a-d73ceec7b0c5&lang=ru_RU">
+    </script>
+    <script src="main.js"></script>
+</body>
+
+</html>
