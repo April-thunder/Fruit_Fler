@@ -19,7 +19,7 @@ Rebuilding the old shop - https://frutbuket.ru/
 
 ## Demo
 
-Click the link to see the page 
+Click the link to see the page https://april-thunder.github.io/Fruit_Fler/ 
 
 
 
