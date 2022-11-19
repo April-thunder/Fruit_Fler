@@ -5,7 +5,7 @@ Rebuilding the old shop - https://frutbuket.ru/
 
 ## Technologies used
 
-- JS
+- JS (slider)
 - HTML
 - CSS (Flexbox Layout)
 - BEM Methodology
