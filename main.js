@@ -16,7 +16,7 @@ const swiper = new Swiper('.swiper', {
   },
 });
 
-// Яндекс карты
+// Яндекс карты. подключение
 
 function init() {
     let map = new ymaps.Map('map', {

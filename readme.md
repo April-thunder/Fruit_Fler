@@ -1,4 +1,3 @@
-
 # Internet Shop Fruit Fler (still in progress)
 
 Rebuilding the old shop - https://frutbuket.ru/
