@@ -1,4 +1,4 @@
-# Internet Shop Fruit Fler (still in progress)
+# Internet Shop Fruit Fler from Khabarovsk (still in progress)
 
 Rebuilding the old shop - https://frutbuket.ru/
 
