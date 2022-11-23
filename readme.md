@@ -20,5 +20,9 @@ Rebuilding the old shop - https://frutbuket.ru/
 
 Click the link to see the page https://april-thunder.github.io/Fruit_Fler/ 
 
+## To-Do
+
+Finish web site. Try CMS
+
 
 
