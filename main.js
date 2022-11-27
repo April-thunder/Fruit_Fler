@@ -30,6 +30,7 @@ ymaps.ready(init);
 // Мобильное меню 
 
 const btn = document.querySelectorAll('.menu__btn');
+
 const modalOverlay = document.querySelector('.modal-overlay ');
 const modals = document.querySelectorAll('.modal');
 const closeIcon = document.querySelector('.close__icon');

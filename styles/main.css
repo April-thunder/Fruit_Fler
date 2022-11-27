@@ -440,6 +440,7 @@
 
 .order-text {
     font-style: normal;
+
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -456,6 +457,7 @@
     position: absolute;
     top: 0;
     display: -webkit-box;
+    
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
