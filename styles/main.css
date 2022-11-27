@@ -449,7 +449,7 @@
 }
 
 .order__path-block {
-    position: relative
+    position: relative;
 }
 
 .order__berries-block {
@@ -459,7 +459,7 @@
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap
+    flex-wrap: wrap;
 }
 
 .order-item {
